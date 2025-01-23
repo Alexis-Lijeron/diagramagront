@@ -24,7 +24,7 @@ export const NewDiagramButton = () => {
         if (nuevoDiagrama.diagramObject) {
             navigate(`/diagram/${nuevoDiagrama.id}`);
         }
-    };
+    }
 
     return (
         <div className='m-3 p-3 text-center text-white border border-gray-500 rounded-md'>
@@ -51,5 +51,5 @@ export const NewDiagramButton = () => {
                 </Link>
             </div>
         </div>
-    );
-};
+    )
+}
