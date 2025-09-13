@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom';
 
 export const CopyBoard = () => {
     const params = useParams();
-    //const link = `http://localhost:5173/diagram/${params.id}`;
-    const link = `https://diagramagront.onrender.com/diagram/${params.id}`;
+    const link = `http://localhost:5173/diagram/${params.id}`;
+    //const link = `https://diagramagront.onrender.com/diagram/${params.id}`;
 
     // Estado para manejar la notificación de copiado
     const [copied, setCopied] = useState(false);

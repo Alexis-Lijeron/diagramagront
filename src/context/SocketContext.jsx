@@ -4,8 +4,8 @@ import { useSocket } from "../hooks/useSocket";
 export const SocketContext = createContext();
 
 export const SocketProvider = ({ children }) => {
-    const url = `https://diagrama-backend-jye6.onrender.com`;
-    //const url = 'http://localhost:8080'; 
+   // const url = `https://diagrama-backend-jye6.onrender.com`;
+    const url = 'http://localhost:3000'; 
     const { socket, online } = useSocket(url);
 
     return (
